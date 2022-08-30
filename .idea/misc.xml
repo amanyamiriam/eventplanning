@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/cerclebackgroundgreen.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/cerclebackgroundpink.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/cerclebackgroundpurple.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/cerclebackgroundyello.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_attach_file_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_attach_money_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_control_point_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_lightbulb_outline_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_wifi_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.189873417721519" />
+        <entry key="app/src/main/res/layout/activity_events.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/layout/activity_exit.xml" value="0.13148148148148148" />
+        <entry key="app/src/main/res/layout/activity_food.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_guest.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.10697674418604651" />
+        <entry key="app/src/main/res/layout/activity_log_out.xml" value="0.15648148148148147" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/activity_navbar.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_shopping_list.xml" value="0.16791044776119404" />
+        <entry key="app/src/main/res/layout/activity_todolist.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/layout/activity_venue.xml" value="0.12921348314606743" />
+        <entry key="app/src/main/res/layout/activity_venue2.xml" value="0.13148148148148148" />
+        <entry key="app/src/main/res/layout/app_bar_navbar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/content_navbar.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

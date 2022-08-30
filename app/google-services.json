@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626026850381",
+    "project_id": "event-planning-d911b",
+    "storage_bucket": "event-planning-d911b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626026850381:android:ed11dbf7e10e2bcb045404",
+        "android_client_info": {
+          "package_name": "com.haz.eventplanning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626026850381-ii74m1h5vquf1p4uhfuq5g1fmn1uefgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyywt4yVfCJ_FAq6JHbQsPaSulVDFuzK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626026850381-ii74m1h5vquf1p4uhfuq5g1fmn1uefgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
