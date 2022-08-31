@@ -24,15 +24,15 @@ class EventsActivity : AppCompatActivity() {
         editTextDescription = findViewById(R.id.mEdtDescription)
         buttonSave = findViewById(R.id.mBtnSave)
 
-        textViewEvent!!.setOnClickListener {
+        textViewEvent.setOnClickListener {
             var goToEvents = Intent(applicationContext,EventsActivity::class.java)
             startActivity(goToEvents)
         }
-        editTextName!!.setOnClickListener {
+        editTextName.setOnClickListener {
             var goToName = Intent(applicationContext,EventsActivity::class.java)
             startActivity(goToName)
         }
-        editTextLocation!!.setOnClickListener {
+        editTextLocation.setOnClickListener {
             var goToLocation = Intent(applicationContext,EventsActivity::class.java)
             startActivity(goToLocation)
         }
@@ -40,16 +40,14 @@ class EventsActivity : AppCompatActivity() {
             var goToDate = Intent(applicationContext,EventsActivity::class.java)
             startActivity(goToDate)
         }
-        editTextDescription!!.setOnClickListener {
+        editTextDescription.setOnClickListener {
             var goToDescription = Intent(applicationContext,EventsActivity::class.java)
             startActivity(goToDescription)
         }
-        buttonSave!!.setOnClickListener {
+        buttonSave.setOnClickListener {
             var goToSave = Intent(applicationContext,EventsActivity::class.java)
             startActivity(goToSave)
 
-            val intent = Intent(this, GuestActivity::class.java)
-            startActivity(intent)
         }
     }
 

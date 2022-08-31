@@ -26,46 +26,45 @@ class GuestActivity : AppCompatActivity() {
         editTextGender = findViewById(R.id.mEdtGender)
         editTextAge = findViewById(R.id.mEdtAge)
         editTextEmail = findViewById(R.id.mEdtEmail)
-        editTextDescription = findViewById(R.id.mEdtDescription)
+        editTextDescription = findViewById(R.id.mDescription)
         checkBoxInvited = findViewById(R.id.mCheckBox)
         buttonSave = findViewById(R.id.BtnSave)
 
-        textViewGuest!!.setOnClickListener {
+        textViewGuest.setOnClickListener {
             var goToGuest = Intent(applicationContext,GuestActivity::class.java)
             startActivity(goToGuest)
         }
 
-        editTextName!!.setOnClickListener {
+        editTextName.setOnClickListener {
             var goToName = Intent(applicationContext,GuestActivity::class.java)
             startActivity(goToName)
         }
 
-        editTextGender!!.setOnClickListener {
+        editTextGender.setOnClickListener {
             var goToGender = Intent(applicationContext,GuestActivity::class.java)
             startActivity(goToGender)
         }
-        editTextAge!!.setOnClickListener {
+        editTextAge.setOnClickListener {
             var goToAge = Intent(applicationContext,GuestActivity::class.java)
             startActivity(goToAge)
         }
-        editTextEmail!!.setOnClickListener {
+        editTextEmail.setOnClickListener {
             var goToEmail = Intent(applicationContext,GuestActivity::class.java)
             startActivity(goToEmail)
         }
-        editTextDescription!!.setOnClickListener {
+        editTextDescription.setOnClickListener {
             var goToDescription = Intent(applicationContext,GuestActivity::class.java)
             startActivity(goToDescription)
         }
-        checkBoxInvited!!.setOnClickListener {
+        checkBoxInvited.setOnClickListener {
             var goToCheckBox = Intent(applicationContext,GuestActivity::class.java)
             startActivity(goToCheckBox)
         }
-        buttonSave!!.setOnClickListener {
+        buttonSave.setOnClickListener {
             var goToSave = Intent(applicationContext,GuestActivity::class.java)
             startActivity(goToSave)
 
-            val intent = Intent(this, TodolistActivity::class.java)
-            startActivity(intent)
+
         }
     }
 }

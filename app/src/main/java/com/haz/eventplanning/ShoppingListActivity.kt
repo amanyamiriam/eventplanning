@@ -26,42 +26,41 @@ class ShoppingListActivity : AppCompatActivity() {
         editTextUnits = findViewById(R.id.mEdtUnits)
         editTextPrice = findViewById(R.id.mEdtPrice)
         editTextTotalquantity = findViewById(R.id.mEdtQuantity)
-        editTextDescription = findViewById(R.id.mEdtDescription)
-        checkBoxPurchesed = findViewById(R.id.mCheckBox)
+        editTextDescription = findViewById(R.id.medtdescription)
+        checkBoxPurchesed = findViewById(R.id.mcheckBox)
         buttonSave = findViewById(R.id.bsave)
 
 
-        textViewShoppinglist!!.setOnClickListener {
+        textViewShoppinglist.setOnClickListener {
             var goToEvents = Intent(applicationContext,ShoppingListActivity::class.java)
             startActivity(goToEvents)
         }
-        editTextName!!.setOnClickListener {
+        editTextName.setOnClickListener {
             var goToName = Intent(applicationContext,ShoppingListActivity::class.java)
             startActivity(goToName)
         }
-        editTextUnits!!.setOnClickListener {
+        editTextUnits.setOnClickListener {
             var goToUnits = Intent(applicationContext,ShoppingListActivity::class.java)
             startActivity(goToUnits)
         }
-        editTextPrice!!.setOnClickListener {
+        editTextPrice.setOnClickListener {
             var goToPrice= Intent(applicationContext,ShoppingListActivity::class.java)
             startActivity(goToPrice)
         }
-        editTextTotalquantity!!.setOnClickListener {
+        editTextTotalquantity.setOnClickListener {
             var goToQuantity= Intent(applicationContext,ShoppingListActivity::class.java)
             startActivity(goToQuantity)
         }
 
-        editTextDescription!!.setOnClickListener {
+        editTextDescription.setOnClickListener {
             var goToDescription = Intent(applicationContext,ShoppingListActivity::class.java)
             startActivity(goToDescription)
         }
-        buttonSave!!.setOnClickListener {
+        buttonSave.setOnClickListener {
             var goToSave = Intent(applicationContext,ShoppingListActivity::class.java)
             startActivity(goToSave)
 
-            val intent = Intent(this, ExitActivity::class.java)
-            startActivity(intent)
+
         }
     }
 

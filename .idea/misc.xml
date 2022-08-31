@@ -14,12 +14,14 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_lightbulb_outline_black_24dp.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_wifi_black_24dp.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.189873417721519" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_events.xml" value="0.19583333333333333" />
         <entry key="app/src/main/res/layout/activity_exit.xml" value="0.13148148148148148" />
         <entry key="app/src/main/res/layout/activity_food.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_guest.xml" value="0.19583333333333333" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.10697674418604651" />
+        <entry key="app/src/main/res/layout/activity_intent.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_list.xml" value="0.19583333333333333" />
         <entry key="app/src/main/res/layout/activity_log_out.xml" value="0.15648148148148147" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17" />
@@ -27,8 +29,10 @@
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_shopping_list.xml" value="0.16791044776119404" />
         <entry key="app/src/main/res/layout/activity_todolist.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/layout/activity_user_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_venue.xml" value="0.12921348314606743" />
         <entry key="app/src/main/res/layout/activity_venue2.xml" value="0.13148148148148148" />
+        <entry key="app/src/main/res/layout/activity_view.xml" value="0.19583333333333333" />
         <entry key="app/src/main/res/layout/app_bar_navbar.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_navbar.xml" value="0.15" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.1" />

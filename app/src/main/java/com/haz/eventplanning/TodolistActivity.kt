@@ -18,27 +18,27 @@ class TodolistActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_todolist)
 
-        textViewTodolist = findViewById(R.id.mGuests)
+        textViewTodolist = findViewById(R.id.mToDoList)
         editTextTask = findViewById(R.id.mEdtTask)
-        editTextDescription = findViewById(R.id.mEdtDescription)
-        checkBoxCompleted = findViewById(R.id.mCheckBox)
-        buttonSave = findViewById(R.id.BtnSave)
+        editTextDescription = findViewById(R.id.edtDescription)
+        checkBoxCompleted = findViewById(R.id.mcheckbox)
+        buttonSave = findViewById(R.id.btnSave)
 
-        textViewTodolist!!.setOnClickListener {
+        textViewTodolist.setOnClickListener {
             var goToTodolist = Intent(applicationContext,TodolistActivity::class.java)
             startActivity(goToTodolist)
         }
-        editTextTask!!.setOnClickListener {
+        editTextTask.setOnClickListener {
             var goToTask = Intent(applicationContext,TodolistActivity::class.java)
             startActivity(goToTask)
         }
-        editTextDescription!!.setOnClickListener {
+        editTextDescription.setOnClickListener {
             var goToDescription = Intent(applicationContext,TodolistActivity::class.java)
             startActivity(goToDescription)
         }
 
-        buttonSave!!.setOnClickListener {
-            var goToSave = Intent(applicationContext,ShoppingListActivity::class.java)
+        buttonSave.setOnClickListener {
+            var goToSave = Intent(applicationContext,TodolistActivity::class.java)
             startActivity(goToSave)
 
         }
