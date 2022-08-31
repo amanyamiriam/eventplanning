@@ -67,7 +67,7 @@ class DashboardActivity : AppCompatActivity() {
 
         }
         cardViewPeople.setOnClickListener {
-            var goToCardViewPeople = Intent(applicationContext,IntentActivity::class.java)
+            var goToCardViewPeople = Intent(applicationContext,ViewActivity::class.java)
             startActivity(goToCardViewPeople)
 
         }
